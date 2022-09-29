@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the csv block with valid CSV data 1`] = `
+<textarea
+  data-testid="file1-csv-data"
+  readonly=""
+>
+  paint,1.0
+laptop,3.0
+</textarea>
+`;

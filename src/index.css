@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  background:
+    linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+}
+
+body {
+  font-family: montserrat, arial, verdana;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.order-csv-block .avg-block {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  position: absolute;
+  padding-left: 10%;
+}
+
+.order-csv-block .popular-block {
+  width: 50%;
+  margin: 50px auto;
+  text-align: right;
+  position: absolute;
+  padding-left: 10%;
+}
+
+.order-csv-blocktextarea,
+.order-csv-block textarea {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+/*form styles*/
+#msform {
+  width: 400px;
+  margin: 25px auto;
+  text-align: center;
+  position: relative;
+}
+
+/*inputs*/
+#msform input,
+#msform textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+/*buttons*/
+#msform .action-button,
+.order-csv-block button {
+  width: 100px;
+  background: #27AE60;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus,
+.order-csv-block button:hover,
+.order-csv-block button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.order-csv-block button {
+  margin: 2px;
+}
+
+label {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.left-half {
+  position: absolute;
+  height: 30%;
+  left: 0px;
+  margin: 20px;
+  width: 45%;
+}
+
+.right-half {
+  height: 30%;
+  position: absolute;
+  right: 0px;
+  margin: 20px;
+  width: 45%;
+}
