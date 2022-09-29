@@ -5,7 +5,7 @@
 
 ## Prerequisites
 
-Make sure you have already installed Node and NPM (or) Use below link to install 
+Make sure you have already installed Node and NPM (or) Use below to install 
 [https://nodejs.org/en/download](https://nodejs.org/en/download) 
 
 ## Installing
